@@ -2,10 +2,14 @@ import Clock from "@/components/Clock";
 
 export default function Home() {
   return (
-    <div>
-      <Clock />
-      <h2 className="text-lg front-semibold">Workout</h2>
-      <p className="text-sm text-gray-600">✅ Completed</p>
-    </div>
+    <main className=" min-h-screen bg-gray-100 p-6">
+      <div className="max-w-5xl mx-auto space-y-6">
+        {/*Clock + Welcome */}
+        <div>
+          <Clock />
+          <h1> Welcome back! USER 👋🏾</h1>
+        </div>
+      </div>
+    </main>
   );
 }
